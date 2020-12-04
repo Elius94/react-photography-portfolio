@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import Counter from '../components/counter/Counter'
+import { GridGallery } from '../components/GridGallery'
 
 export const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ export const Home: React.FC = () => {
         Prettier for you. Take a look around ;)
       </p>
       <Counter />
+      <GridGallery />
     </Fragment>
   )
 }
